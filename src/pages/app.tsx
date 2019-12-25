@@ -1,10 +1,11 @@
 import React from 'react';
-import 'static/css/style.less';
 import $ from 'jquery';
 import { Link, Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 import Home from 'pages/home';
 import About from 'pages/about';
+
+import 'static/css/style.less';
 
 class App extends React.Component {
   componentDidMount() {
